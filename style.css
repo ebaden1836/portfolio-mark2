@@ -1,0 +1,26 @@
+/* 浮き出てくる処理 */
+
+body main .no1 #profile.active{
+    opacity: 1;
+}
+body main .no2 #skills.active{
+    opacity: 1;
+}
+body main .no2 #service.active{
+    opacity: 1;
+}
+body main .no3 #works.active{
+    opacity: 1;
+}
+
+/* モーダルウィンドウの処理 */
+
+body #preview.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) scale(1);
+}
+body #mask.show{
+    opacity: 0.5;
+    visibility: visible;
+}

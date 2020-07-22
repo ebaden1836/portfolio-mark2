@@ -1,0 +1,410 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body header {
+  width: 100%;
+  height: 60px;
+  background-color: #ccc;
+  position: fixed;
+  z-index: 1;
+}
+
+body header nav {
+  position: relative;
+}
+
+body header nav ul {
+  width: 50%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  margin-left: 50%;
+  padding: 0;
+}
+
+body header nav ul li {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+body header nav ul li a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body header nav ul li a:hover {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+body main {
+  width: 100%;
+}
+
+body main .no1 {
+  width: 100%;
+}
+
+body main .no1 .main {
+  width: 100%;
+  height: 930px;
+  background-image: url(img/main3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body main .no1 .main #logo {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+body main .no1 .main #logo h1 {
+  margin: 0;
+  font-size: 80px;
+}
+
+body main .no1 .main #policey {
+  color: white;
+  font-size: 60px;
+  background-color: rgba(200, 200, 200, 0.5);
+  text-align: center;
+  margin-top: 150px;
+}
+
+body main .no1 #profile {
+  width: 100%;
+  text-align: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  height: 600px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 0;
+}
+
+body main .no1 #profile h2 {
+  font-size: 60px;
+}
+
+body main .no1 #profile .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 40px;
+}
+
+body main .no1 #profile .container .about {
+  width: 50%;
+}
+
+body main .no1 #profile .container .about #me {
+  border-radius: 50%;
+  width: 250px;
+}
+
+body main .no1 #profile .container .about a {
+  width: 60px;
+}
+
+body main .no1 #profile .container .about a img {
+  width: 60px;
+}
+
+body main .no2 #skills {
+  background-image: url(img/skill.jpg);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 0;
+}
+
+body main .no2 #skills h2 {
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+body main .no2 #skills #skillbox {
+  background-color: white;
+  border: dotted 4px #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body main .no2 #skills #skillbox .skillitem {
+  width: 30%;
+}
+
+body main .no2 #service {
+  text-align: center;
+  width: 100%;
+  margin-top: -60px;
+  padding-top: 60px;
+  height: 600px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 0;
+}
+
+body main .no2 #service h2 {
+  font-size: 60px;
+}
+
+body main .no2 #service #survicebox {
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+}
+
+body main .no2 #service #survicebox .serviceitem {
+  width: 50%;
+}
+
+body main .no2 #service #survicebox .serviceitem h3 {
+  font-size: 30px;
+  margin-top: 0;
+  border-bottom: #ccc solid 3px;
+}
+
+body main .no3 {
+  width: 100%;
+}
+
+body main .no3 #works {
+  text-align: center;
+  background-image: url(img/works.jpg);
+  background-size: cover;
+  height: 500px;
+  margin-top: -60px;
+  padding-top: 60px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  opacity: 0;
+}
+
+body main .no3 #works h2 {
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+body main .no3 #works #workbox img {
+  width: 400px;
+  margin: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+body main .no3 #works #workbox img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+body main .no3 #form {
+  text-align: center;
+  margin-top: -60px;
+  padding-top: 60px;
+}
+
+body main .no3 #form h2 {
+  font-size: 60px;
+}
+
+body main .no3 #form a {
+  display: block;
+}
+
+body main .no3 #form input {
+  display: block;
+}
+
+body footer {
+  background-color: #ccc;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+body footer p {
+  margin: 0;
+}
+
+body #preview {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translateX(-50%) scale(0.3);
+          transform: translateX(-50%) scale(0.3);
+  z-index: 990;
+  width: 20%;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+body #mask {
+  width: 100%;
+  height: 1000px;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 989;
+  opacity: 0;
+  visibility: hidden;
+}
+
+body #mask button {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+  body header {
+    max-width: 375px;
+  }
+  body header nav ul {
+    margin: 0;
+    width: 375px;
+  }
+  body header nav ul li {
+    font-size: 15px;
+  }
+  body header nav ul li a:hover {
+    font-size: 25px;
+  }
+  body main .no1 .main {
+    height: 465px;
+  }
+  body main .no1 .main #logo {
+    max-width: 375px;
+  }
+  body main .no1 .main #logo h1 {
+    font-size: 30px;
+  }
+  body main .no1 .main #policey {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  body main .no1 #profile {
+    max-width: 375px;
+    height: 850px;
+  }
+  body main .no1 #profile h2 {
+    font-size: 30px;
+  }
+  body main .no1 #profile .container {
+    max-width: 375px;
+    margin-top: 20px;
+    display: block;
+  }
+  body main .no1 #profile .container .about {
+    margin: 0 auto;
+    text-align: center;
+  }
+  body main .no1 #profile .container .about #me {
+    width: 125px;
+  }
+  body main .no2 #skills {
+    height: 800px;
+  }
+  body main .no2 #skills h2 {
+    font-size: 30px;
+    color: white;
+  }
+  body main .no2 #skills #skillbox {
+    display: block;
+    width: 300px;
+  }
+  body main .no2 #skills #skillbox .skillitem {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+  }
+  body main .no2 #skills #skillbox .skillitem h3 {
+    font-size: 15px;
+    width: 150px;
+    margin: 15px auto;
+  }
+  body main .no2 #service h2 {
+    font-size: 30px;
+  }
+  body main .no2 #service #survicebox {
+    display: block;
+    width: 300px;
+  }
+  body main .no2 #service #survicebox .serviceitem {
+    width: 100%;
+    font-size: 15px;
+  }
+  body main .no2 #service #survicebox .serviceitem img {
+    width: 300px;
+  }
+  body main .no2 #service #survicebox .serviceitem h3 {
+    font-size: 20px;
+    width: 100%;
+  }
+  body main .no3 #works h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  body main .no3 #works #workbox img {
+    width: 200px;
+  }
+  body main .no3 #works #workbox img:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+  body main .no3 #form h2 {
+    font-size: 30px;
+  }
+  body #preview {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
